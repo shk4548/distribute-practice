@@ -31,7 +31,7 @@ spring:
    # datasource
    datasource:
       driver-class-name: org.mariadb.jdbc.Driver
-      url: jdbc:mysql://34.64.252.212:3307/test?characterEncoding=utf8
+      url: jdbc:mysql://34.64.148.106:3307/test?characterEncoding=utf8
       username: return0
       password: 1234
 
@@ -66,10 +66,10 @@ server:
          charset: UTF-8
          enabled: true
 
-# logging
-logging:
-  level:
-    root:WARN
+## logging
+#logging:
+#  level:
+#    root:WARN
 ---
 #
 # production configuration
