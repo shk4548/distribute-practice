@@ -1,5 +1,7 @@
 # active spring boot profile
 spring:
+   application:
+      name: emaillist
    profiles:
       active: development
 
@@ -37,10 +39,7 @@ spring:
 mybatis:
    config-location: classpath:mybatis/configuration.xml
 
-# logging
-logging:
-   level:
-      root: WARN 
+
 
 
 
@@ -67,6 +66,10 @@ server:
          charset: UTF-8
          enabled: true
 
+# logging
+logging:
+  level:
+    root:WARN
 ---
 #
 # production configuration
